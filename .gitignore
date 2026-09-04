@@ -1,0 +1,8 @@
+/build_qr/
+/build_hid/
+/build_uvc_check/
+/build_uvc_qr_test/
+/build_web/
+/.venv-qr-test/
+/.native-qr-test/
+__pycache__/

@@ -1,0 +1,32 @@
+{
+  "idf.currentSetup": "C:\\esp\\v5.4.4\\esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.flashType": "UART",
+  "idf.cmakeCompilerArgs": [
+    "-G",
+    "Ninja",
+    "-DPYTHON_DEPS_CHECKED=1",
+    "-DESP_PLATFORM=1",
+    "-DCAMERA_UVC_QR_TEST=OFF",
+    "-DCAMERA_OUTPUT_QR_USB=ON"
+  ],
+  "idf.portWin": "COM10",
+  "idf.ninjaArgs": [
+    "-j",
+    "16"
+  ],
+  "idf.customExtraVars": {
+    "IDF_CCACHE_ENABLE": "1",
+    "IDF_TARGET": "esp32s3",
+    "OPENOCD_SCRIPTS": "C:\\Espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20260304\\openocd-esp32\\share\\openocd\\scripts",
+    "OPENOCD_USB_ADAPTER_LOCATION": "1-2.3"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\Lenovo\\Desktop\\07-lcd_camera\\build"
+  ]
+}
